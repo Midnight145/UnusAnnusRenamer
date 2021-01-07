@@ -5,7 +5,7 @@ const { mainWindow } = remote.require('../src/main.js')
 var options = {
   location: '',
   season: 1,
-  metadataFile: ''
+  metadataFile: 'metadata.json'
 }
 
 function openFolder() {
